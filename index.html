@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Biblioteca Digital UniFECAF: livros, materiais acadêmicos e conteúdos de apoio à aprendizagem em um só lugar.">
+  <title>Biblioteca Digital UniFECAF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <nav class="menu" aria-label="Navegação principal">
+      <a class="menu__marca" href="#biblioteca">Biblioteca Digital</a>
+      <ul class="menu__lista">
+        <li><a href="#biblioteca" aria-current="page">Biblioteca</a></li>
+        <li><a href="#livros">Livros</a></li>
+        <li><a href="#unidades">Unidades</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- Banner principal -->
+    <section class="hero" id="biblioteca" aria-labelledby="hero-titulo">
+      <img class="hero__imagem" src="assets/imagens/banner-hero.svg" alt="Estantes coloridas cheias de livros">
+      <div class="hero__texto">
+        <h1 id="hero-titulo">Todo o acervo da UniFECAF na palma da mão</h1>
+        <p>Encontre livros, materiais acadêmicos e apoio ao estudo, de onde você estiver.</p>
+        <a class="botao" href="#livros">Ver livros</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre secao" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <h2 id="sobre-titulo">Sobre a nossa biblioteca</h2>
+        <div class="sobre__grade">
+          <p>A Biblioteca Digital reúne em um só lugar o que o aluno precisa para estudar: livros de todas as áreas, materiais das disciplinas e conteúdos de apoio. O acesso é simples, sem filas e sem depender de horário.</p>
+          <img src="assets/imagens/sobre.svg" alt="Ilustração de um documento aberto com textos e títulos">
+          <p>Nosso objetivo é aproximar o estudante da leitura. Por isso, o acervo é organizado por categorias e os destaques mudam ao longo do semestre, ajudando você a descobrir o que é mais útil para o seu curso.</p>
+        </div>
+        <ul class="recursos">
+          <li><img src="assets/imagens/icone-acervo.svg" alt=""><span>Acervo completo</span></li>
+          <li><img src="assets/imagens/icone-online.svg" alt=""><span>Acesso online</span></li>
+          <li><img src="assets/imagens/icone-estudo.svg" alt=""><span>Apoio ao estudo</span></li>
+          <li><img src="assets/imagens/icone-atendimento.svg" alt=""><span>Atendimento rápido</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Banner de destaque -->
+    <section class="destaque" aria-labelledby="destaque-titulo">
+      <img src="assets/imagens/banner-destaque.svg" alt="">
+      <div class="destaque__texto">
+        <h2 id="destaque-titulo">Novidades no acervo</h2>
+        <p>Novos títulos chegam todo mês. Confira os destaques logo abaixo.</p>
+      </div>
+    </section>
+
+    <!-- Livros -->
+    <section class="livros secao" id="livros" aria-labelledby="livros-titulo">
+      <div class="container">
+        <h2 id="livros-titulo">Nossos livros</h2>
+        <div class="livros__grade">
+          <article class="cartao">
+            <h3>Algoritmos e Lógica</h3>
+            <img src="assets/imagens/livro-algoritmos.svg" alt="Capa azul com o símbolo de chaves">
+            <p>Os primeiros passos da programação: raciocínio lógico, estruturas de decisão e repetição.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+          <article class="cartao">
+            <h3>Redes de Computadores</h3>
+            <img src="assets/imagens/livro-redes.svg" alt="Capa verde com um símbolo de conexão">
+            <p>Como os dispositivos se comunicam: protocolos, endereçamento e segurança básica.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+          <article class="cartao">
+            <h3>Banco de Dados</h3>
+            <img src="assets/imagens/livro-bancos.svg" alt="Capa azul-escura com linhas empilhadas">
+            <p>Modelagem, consultas em SQL e boas práticas para guardar e recuperar informações.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+          <article class="cartao">
+            <h3>Engenharia de Software</h3>
+            <img src="assets/imagens/livro-engenharia.svg" alt="Capa azul com um triângulo">
+            <p>Do levantamento de requisitos à entrega: métodos ágeis, testes e documentação.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+          <article class="cartao">
+            <h3>Design Web</h3>
+            <img src="assets/imagens/livro-design.svg" alt="Capa verde com um quadrado">
+            <p>HTML, CSS e responsividade para criar interfaces claras, acessíveis e organizadas.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+          <article class="cartao">
+            <h3>Cálculo Aplicado</h3>
+            <img src="assets/imagens/livro-calculo.svg" alt="Capa escura com o símbolo de integral">
+            <p>Limites, derivadas e integrais explicados com exemplos das áreas de tecnologia.</p>
+            <a class="botao botao--menor" href="#contatos">Saiba mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unidades -->
+    <section class="unidades secao" id="unidades" aria-labelledby="unidades-titulo">
+      <div class="container">
+        <h2 id="unidades-titulo">As unidades</h2>
+        <article class="unidade">
+          <img src="assets/imagens/unidade-1.svg" alt="Ilustração do prédio da Unidade 1">
+          <div>
+            <h3>Unidade 1: Biblioteca Central</h3>
+            <p>Nosso maior acervo físico, com área de leitura silenciosa e computadores para consultar o catálogo. Atendimento de segunda a sexta.</p>
+          </div>
+        </article>
+        <article class="unidade">
+          <img src="assets/imagens/unidade-2.svg" alt="Ilustração do prédio da Unidade 2">
+          <div>
+            <h3>Unidade 2: Espaço de Estudos</h3>
+            <p>Salas de estudo em grupo que podem ser reservadas, mais balcão para empréstimo e devolução de livros.</p>
+          </div>
+        </article>
+        <article class="unidade">
+          <img src="assets/imagens/unidade-3.svg" alt="Ilustração do prédio da Unidade 3">
+          <div>
+            <h3>Unidade 3: Núcleo de Apoio Digital</h3>
+            <p>Equipe que ensina a usar a biblioteca online, pesquisar artigos e organizar referências do seu trabalho.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contatos -->
+    <section class="contatos secao" id="contatos" aria-labelledby="contatos-titulo">
+      <div class="container contatos__grade">
+        <div>
+          <h2 id="contatos-titulo">Contatos</h2>
+          <p>Ficou com alguma dúvida sobre um livro, o empréstimo ou o acesso à plataforma? Fale com a equipe da biblioteca.</p>
+          <ul class="contatos__lista">
+            <li><strong>E-mail:</strong> <a href="mailto:biblioteca.digital@unifecaf.example">biblioteca.digital@unifecaf.example</a></li>
+            <li><strong>Telefone:</strong> (11) 4000-0000</li>
+            <li><strong>Horário:</strong> segunda a sexta, das 8h às 21h</li>
+          </ul>
+        </div>
+        <img src="assets/imagens/contato.svg" alt="Ilustração de um envelope aberto">
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Biblioteca Digital UniFECAF: projeto acadêmico da disciplina Design Web</p>
+    <p>Desenvolvido por Tiago Sarafim Cirqueira |
+      <a href="https://github.com/Serafim2002">GitHub</a> |
+      <a href="https://www.linkedin.com/in/tiago-sarafim-62975621a">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
